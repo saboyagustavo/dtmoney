@@ -29,3 +29,13 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <li>☑️ Fonts from Google Fonts</li>
     </ol>
 </details>
+<details>
+     <summary>
+        <strong>2 - Componentization</strong>
+     </summary>
+    <ol style="list-style:none">
+        <li>☑️ Header</li>
+        <li>Summary</li>
+        <li>Transactions Table</li>
+    </ol>
+</details>
