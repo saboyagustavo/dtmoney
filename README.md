@@ -35,7 +35,7 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
      </summary>
     <ol style="list-style:none">
         <li>☑️ Header</li>
-        <li>Summary</li>
+        <li>☑️ Summary</li>
         <li>Transactions Table</li>
     </ol>
 </details>
