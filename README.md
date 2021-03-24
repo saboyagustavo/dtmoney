@@ -39,3 +39,20 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <li>☑️ Transactions Table</li>
     </ol>
 </details>
+<details>
+     <summary>
+        <strong>3 - Consuming API</strong>
+     </summary>
+    <ol style="list-style:none">
+        <li>☑️ Building front-end without back-end at the dev/test environment</li>
+        <li>☑️ MirageJS config</li>
+        <li>☑️ Axios client config </li>
+    </ol>
+</details>
+<details>
+     <summary>
+        <strong>4 - Modal && Forms</strong>
+     </summary>
+    <ol style="list-style:none">
+    </ol>
+</details>
