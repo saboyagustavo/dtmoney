@@ -54,9 +54,9 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <strong>4 - Modal && Forms</strong>
      </summary>
     <ol style="list-style:none">
-        <li>☑️ Setting up react-modal and configs</li>
-        <li> Build NewTransactionModal component</li>
-        <li> Structuring the form</li>
-        <li> Styling NewTransactionModal</li>
+        <li>☑️ react-modal lib setup and config</li>
+        <li>☑️ Build NewTransactionModal component</li>
+        <li>☑️ Structuring the form</li>
+        <li>☑️ Styling NewTransactionModal</li>
     </ol>
 </details>
