@@ -58,5 +58,8 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <li>☑️ Build NewTransactionModal component</li>
         <li>☑️ Structuring the form</li>
         <li>☑️ Styling NewTransactionModal</li>
+        <li>☑️ Creating custom radio buttons: RadioBox component</li>
+        <li>☑️ RadioBox functionalities</li>
+        <li>☑️ RadioBox colors</li>
     </ol>
 </details>
