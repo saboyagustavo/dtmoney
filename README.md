@@ -61,5 +61,16 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <li>☑️ Creating custom radio buttons: RadioBox component</li>
         <li>☑️ RadioBox functionalities</li>
         <li>☑️ RadioBox colors</li>
+        <li>☑️ Saving form data</li>
+        <li>☑️ Inserting transactions on the API</li>
+        <li>☑️ Listing transactions and seeds</li>
+        <li>☑️ Formatting date and currency values</li>
+    </ol>
+</details>
+<details>
+     <summary>
+        <strong>5 - Context && hooks</strong>
+     </summary>
+    <ol style="list-style:none">
     </ol>
 </details>
