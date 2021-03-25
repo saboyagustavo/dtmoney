@@ -72,5 +72,9 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <strong>5 - Context && hooks</strong>
      </summary>
     <ol style="list-style:none">
+        <li>☑️ Introduction to React Context</li>
+        <li>☑️ Context API in React</li>
+        <li>☑️ Loading Transactions</li>
+        <li>☑️ Moving create concern to the context</li>
     </ol>
 </details>
