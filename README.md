@@ -12,6 +12,7 @@ Project build as the second module of <strong>Ignite, an educational program by 
 The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.com/in/diego-schell-fernandes" target="_blank">Diego Fernandes</a>
 </small>
 </p>
+![dtmoney](https://user-images.githubusercontent.com/64825005/112689569-3fe2e500-8e59-11eb-97ca-03927fa52ec4.gif)
 <hr>
 
 ## Chapter II - Building React Applications
@@ -78,6 +79,6 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <li>☑️ Moving create concern to the context</li>
         <li>☑️ Finishing data inserction on API/TransactionsTable</li>
         <li>☑️ Updating values in the Summary</li>
-        <li>Creating hooks</li>
+        <li>☑️ Creating hooks</li>
     </ol>
 </details>
