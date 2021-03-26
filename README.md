@@ -77,6 +77,7 @@ The Ignite's ReactJS Leaning Pathway is taught by <a href="https://www.linkedin.
         <li>☑️ Loading Transactions</li>
         <li>☑️ Moving create concern to the context</li>
         <li>☑️ Finishing data inserction on API/TransactionsTable</li>
-        <li> Updating values in the Summary</li>
+        <li>☑️ Updating values in the Summary</li>
+        <li>Creating hooks</li>
     </ol>
 </details>

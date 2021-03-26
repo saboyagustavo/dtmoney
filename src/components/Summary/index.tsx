@@ -7,7 +7,23 @@ import totalImg from '../../assets/total.svg';
 
 export function Summary(): JSX.Element {
     const { transactions } = useContext(TransactionsContext);
-    console.log('\nSUMMARY->', transactions)
+
+    const summary = transactions.reduce((acc, transaction) => {
+        if (transaction.type === 'income') {
+            acc.incomes += transaction.amount;
+            acc.total += transaction.amount;
+        } else {
+            acc.expenses += transaction.amount;
+            acc.total -= transaction.amount;
+        }
+        return acc;
+    }, {
+        incomes: 0,
+        expenses: 0,
+        total: 0
+    });
+
+
     return (
         <Container>
             <div>
@@ -15,7 +31,12 @@ export function Summary(): JSX.Element {
                     <p>Incomes</p>
                     <img src={incomeImg} alt="incomes" />
                 </header>
-                <strong>C$1000.00</strong>
+                <strong>
+                    {new Intl.NumberFormat('en-US', {
+                        style: 'currency',
+                        currency: 'CAD',
+                    }).format(summary.incomes)}
+                </strong>
             </div>
 
             <div>
@@ -23,7 +44,12 @@ export function Summary(): JSX.Element {
                     <p>Expenses</p>
                     <img src={expenseImg} alt="expenses" />
                 </header>
-                <strong>- C$500.00</strong>
+                <strong>
+                    -{new Intl.NumberFormat('en-US', {
+                    style: 'currency',
+                    currency: 'CAD',
+                }).format(summary.expenses)}
+                </strong>
             </div>
 
             <div className="highlight-background">
@@ -31,7 +57,12 @@ export function Summary(): JSX.Element {
                     <p>Total</p>
                     <img src={totalImg} alt="total" />
                 </header>
-                <strong>C$500.00</strong>
+                <strong>
+                    {new Intl.NumberFormat('en-US', {
+                        style: 'currency',
+                        currency: 'CAD',
+                    }).format(summary.total)}
+                </strong>
             </div>
         </Container>
     );
